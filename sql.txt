@@ -1,0 +1,55 @@
+drop table member;
+
+create table member(
+id varchar2(15),
+pwd varchar2(15),
+name varchar2(15),
+birth date,
+gender varchar2(6),
+phoen varchar2(11));
+
+drop table book;
+
+create table book(
+title varchar2(100),
+writer varchar2(60),
+publisher varchar2(60),
+page varchar2(5),
+isbn varchar2(13),
+p_date varchar2(10),
+b_image varchar2(50),
+s_code varchar2(1),
+h_code varchar2(1),
+w_code varchar2(3),
+possible varchar2(10));
+
+drop table rental;
+
+create table rental(
+id varchar2(15),
+title varchar2(100),
+rental_d date,
+return_d date,
+return_ex number default 0);
+
+drop table reserve;
+
+create table reserve(
+id varchar2(15),
+title varchar2(100));
+
+drop table notice;
+
+create table notice(
+important number,
+num number,
+title varchar2(100),
+reg_date date,
+readcount number default 0,
+content varchar2(300)
+
+create sequence n_seq
+increment by 1
+start with 1
+min_value 1
+nocache;

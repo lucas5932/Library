@@ -1,0 +1,11 @@
+.searchBar{
+	border-top : 2px solid orange;
+	border-bottom : 2px solid orange; 	
+	float : right;
+	position:relative;
+	top : 20px;
+	right : 50px;
+}
+.searchBtn{
+	padding: 5px;
+}

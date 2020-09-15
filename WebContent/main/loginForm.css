@@ -1,0 +1,25 @@
+#login_form{
+	border : 3px solid navy;
+	background: #C4DEFF;
+}
+
+#login_form input[type=button]{
+	padding : 20px 30px;
+	margin : 0 5px;
+}
+
+#login_form a:link,a:visited{
+	color:navy; text-decoration:none;
+	font-size:13px; font-family:verdana;
+}
+
+#login_form a:hover{
+	color:navy; text-decoration:underline;
+	font-size:13px; font-family:verdana;
+}
+
+#login_form td span{
+	color : black;
+	font-size : 13px;
+	font-family : verdana;
+}

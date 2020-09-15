@@ -1,0 +1,49 @@
+input, select{
+	padding : 10px 5px;
+	margin : 5px;
+}
+
+.input_75{
+	width : 75%;
+}
+.input_name{
+	font-size : 20px;
+	font-weight: bold;
+	text-align : center;
+	width : 25%;
+	background-color: #FAE0D4;
+}
+.input_data{
+	background-color: #FFFFF8;
+}
+.table_form{
+	border : 1px solid black;
+	width : 100%;
+}
+.line_solid_top{
+	border-top : 1px solid black;
+}
+.line_solid_bot{
+	border-bottom : 1px solid black;
+}
+.line_solid_left{
+	border-left : 1px solid black;
+}
+.line_solid_right{
+	border-right : 1px solid black;
+}
+.font_red{
+	color : red;
+}
+.font_green{
+	color : green;
+}
+#id_msg, #pwd_msg, #pwdchk_msg, #name_msg,
+#birth_msg, #gender_msg, #phone_msg{
+	display: none;
+}
+.fix_data{
+	margin : 5px;
+	font-size: 20px;
+	color : gray;
+}
