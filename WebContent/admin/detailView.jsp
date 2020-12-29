@@ -28,7 +28,7 @@
     	</tr>
     	<tr>
     		<td align="center" width="20%"> 아이디  </td>
-    		<td colspan="6"><%= mdto.getId() %> </td>
+    		<td colspan="6"><%= mdto.getId() %> </td> 
     	</tr>
     	<tr>
     		<td align="center"> 비밀번호   </td>
