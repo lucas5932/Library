@@ -31,7 +31,7 @@
     		<td colspan="6"><%= mdto.getId() %> </td>
     	</tr>
     	<tr>
-    		<td align="center"> 비밀번호  ㅁ </td>
+    		<td align="center"> 비밀번호   </td>
     		<td colspan="6"> <%= mdto.getPwd() %> </td>
     	</tr>
     	<tr>
