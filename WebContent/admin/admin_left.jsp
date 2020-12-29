@@ -3,7 +3,7 @@
 
 <table id="left_table" cellpadding="10px">
 	<tr>
-		<td class="td_title">관리자 메뉴</td>
+		<td class="td_title">관리자 메뉴</td>aa
 	</tr>
 	<tr>
 		<td class="td_sub"><a href="manager.jsp">회원 관리</a></td>
